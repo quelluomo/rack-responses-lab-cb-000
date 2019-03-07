@@ -4,9 +4,8 @@ class Application
     resp = Rack::Response.new
     t = Time.now
     resp.write = t
-
-
-    end
+    
     resp.finish
   end
 end
+
