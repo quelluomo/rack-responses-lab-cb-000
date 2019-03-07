@@ -9,5 +9,5 @@ class Application
       resp.write "something else.\n"
     end
     resp.finish
-  end 
+  end
 end
