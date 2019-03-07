@@ -5,7 +5,7 @@ class Application
     t = Time.now
     resp.write = t
 
-  
+
     end
     resp.finish
   end
